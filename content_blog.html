@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/contentBlog.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <header class="app__header">
+                <nav class="header_navbar hidden-mobile-tablet">
+                    <img class="header_navbar__img " src="./assets/img/navbar.png" alt="">
+                </nav>
+                <div class="header_navbar hidden-pc">
+                    <img class="header_navbar__img" src="./assets/img/header-mobile.png" alt="">
+                </div>
+        </header>
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="row app__content">
+                    <div class="col l-12 c-12 container__content">
+                        <div class="container__content__search">
+                            <div class="container__content__search__icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <input class="container__content__search__input" type="text" placeholder="Tìm kiếm bài viết">
+                        </div>
+                       <div class="grid wide">
+                            <ul class=" row container__content__category">
+                                <li class="col l-2 c-2 container__content__category__item header__navbar-item--separate" style="display: flex;">
+                                    <p class="container__content__category__item__text">Chia sẻ kinh nghiệm</p>
+                                </li>
+                                <li class="col l-2 c-2 container__content__category__item header__navbar-item--separate" style="display: flex;">
+                                    <p class="container__content__category__item__text">Kiến thức chuyên môn</p>
+                                </li>
+                                <li class="col l-2 c-2 container__content__category__item header__navbar-item--separate" style="display: flex;">
+                                    <p class="container__content__category__item__text">MCI Careers</p>
+                                </li>
+                                <li class="col l-2 c-2 container__content__category__item header__navbar-item--separate" style="display: flex;">
+                                    <p class="container__content__category__item__text">Kinh nghiệm  thực chiến</p>
+                                </li>
+                                <li class="col l-2 c-2 container__content__category__item" style="display: flex;">
+                                    <p class="container__content__category__item__text">Lịch khai giảng</p></li>
+                            </ul>
+                            <div class="row hidden-mobile">
+                                <nav class="col l-12  container__content__breadcrumb" style="display: flex;">
+                                    <a href="" class="container__content__breadcrumb__link">Trang chủ</a>
+                                    <i class="container__content__breadcrumb__link__icon fa-solid fa-chevron-right"></i>
+                                    <a href="" class="container__content__breadcrumb__link">Blog</a>
+                                    <i class="container__content__breadcrumb__link__icon fa-solid fa-chevron-right"></i>
+                                    <a href="" class="container__content__breadcrumb__link">Chia sẻ kinh nghiệm</a>
+                                    <i class="container__content__breadcrumb__link__icon fa-solid fa-chevron-right"></i>
+                                    <a href="" class="container__content__breadcrumb__link">Bạn Nguyễn Quang Hưng - Học Data là 1 quá trình và mình đã vượt qua nó như nào</a>
+                                </nav>
+                            </div>
+                            <div class="row">
+                                <div class="col l-8 c-12">
+                                    <div class="container__content__blog">
+                                        <div class="container__content__group">
+                                            <a class="hidden-pc container__content__blog__link">
+                                                <img class="container__content__blog__img" src="" alt="">
+                                            </a>
+                                            <div class="container__content__title">
+                                               <p class="container__content__title__text" > Bạn Nguyễn Quang Hưng - Học DATA là 1 quá trình và mình đã vượt qua nó như nào</p>
+                                            </div>
+                                            <p class="container__content__blog__text">Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...</p>
+                                           <div class="container__content__blog__nav-menu">
+                                            <div class="container__content__blog__nav-menu__top">
+                                                <i class="container__content__blog__nav__icon fa-solid fa-bars"></i>
+                                                <p class="container__content__blog__nav-title">Nội dung bài viết</p>
+                                            </div>
+                                            <ul class="container__content__blog__nav__list">
+                                                <li class="container__content__blog__nav-item">1. Nội dung bài viết</li>
+                                                <li class="container__content__blog__nav-item">2. Nội dung bài viết</li>
+                                                <li class="container__content__blog__nav-item">3. Nội dung bài viết</li>
+                                                <li class="container__content__blog__nav-item">4. Nội dung bài viết</li>
+                                                <li class="container__content__blog__nav-item">5. Nội dung bài viết</li>
+                                            </ul>
+                                           </div>
+                                           <p class="container__content__blog__text">Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...</p>
+                                           <p class="container__content__blog__text">Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...</p>
+                                           <p class="container__content__blog__text hidden-mobile">Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...</p>
+                                           <div class="container__content__img hidden-mobile">
+                                                <img src="" alt="">
+                                           </div>
+                                           <p class="container__content__blog__text hidden-mobile">Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...</p>
+                                           <p class="container__content__blog__text hidden-mobile">Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-4 hidden-mobile">
+                                    <div class="container__content__course">
+                                        <div class="container__content__course__img">
+                                            <div class="container__content__course__img__link"></div>
+                                        </div>
+                                        <div class="container__content__course__option">
+                                            <div class="container__content__course__option__title">
+                                                <p class="container__content__course__option__text">Các khóa học</p>
+                                            </div>
+                                            <ul class="container__content__course__option__menu">
+                                                <p onclick="toggleSubCourses('course__list-1')" class="container__content__course__option__menu-name">Phân tích dữ liệu</p>
+                                                <ul id="course__list-1" class="container__content__course__option__menu__list" style="display: none;"  >
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                </ul>
+                                                
+                                                
+                                            </ul>
+                                            <ul class="container__content__course__option__menu">
+                                                <p onclick="toggleSubCourses('course__list-2')" class="container__content__course__option__menu-name" >Kĩ sư dữ liệu</p>     
+                                                <ul id="course__list-2" class="container__content__course__option__menu__list" style="display: none;" >
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                </ul>
+                                                
+                                                
+                                            </ul>
+                                            <ul class="container__content__course__option__menu">
+                                                <p onclick="toggleSubCourses('course__list-3')" class="container__content__course__option__menu-name">Khoa học dữ liệu</p>     
+                                                <ul id="course__list-3" class="container__content__course__option__menu__list"style="display: none;" >
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                </ul>
+                                            </ul>
+                                            <ul class="container__content__course__option__menu">
+                                                <p onclick="toggleSubCourses('course__list-4')" class="container__content__course__option__menu-name">Lập trình ứng dụng</p>    
+                                                <ul id="course__list-4" class="container__content__course__option__menu__list"style="display: none;" >
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                    <li class="container__content__course_option__menu__item">Khóa học con</li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                        <div class="container__content__form-login-course">
+                                            <div class="container__content__form-login-course__box">
+                                                
+                                            <h2 class="container__content__form-login-course__title" >Đăng ký tư vấn khóa học</h2>
+                                            <form>
+                                            <label class="container__content__form-login-course__label" for="name">Họ và tên:</label>
+                                            <input class="container__content__form-login-course__input" type="text" id="name" name="name" required>
+
+                                            <label class="container__content__form-login-course__label" for="email">Email:</label>
+                                            <input class="container__content__form-login-course__input" type="email" id="email" name="email" required>
+
+                                            <label class="container__content__form-login-course__label" for="phone">Số điện thoại:</label>
+                                            <input class="container__content__form-login-course__input" type="tel" id="phone" name="phone" required>
+
+                                            <label class="container__content__form-login-course__label" for="course">Khóa học mà bạn muốn tư vấn:</label>
+                                            <select class="container__content__form-login-course__select" id="course" name="course">
+                                                <option  class="container__content__form-login-course__option" value="course1">Khóa học 1</option>
+                                                <option class="container__content__form-login-course__option" value="course2">Khóa học 2</option>
+                                                <option class="container__content__form-login-course__option" value="course3">Khóa học 3</option>
+                                            </select>
+                                            <button class="container__content__form-login-course__button" type="submit">Đăng ký tư vấn</button>
+                                            </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l-12 c-12 container__content__related-post">
+                                        <div class=" container__content__related-posts__title">
+                                            <p class="container__content__related-posts__title__text">Các bài đăng liên quan</p>
+                                    </div>
+                                </div>
+                                <div class="col" style="background-color: #F0F0F0;">
+                                    <div class="container__content__related-posts__menu">
+                                        <div class="l-3-4 container__content__box container__content__box--mobile">
+                                            <div class="container__content__box__img ">
+                                                <i class="container__content__box__img--left fa-solid fa-chevron-left"></i>
+                                                <div class="container__content__box--mobile--img"></div>
+                                                <i class="container__content__box__img--right fa-solid fa-chevron-right"></i>
+                                            </div>
+                                            <div class="container__content__box__text">
+                                                <div class="container__content__box__text__title">Bạn Nguyễn Quang Hưng - Học DATA là 1 quá trình và mình đã vượt qua nó như nào</div>
+                                                <div class="container__content__box__text__content">Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...</div>
+                                                <div class="container__content__box__text__btn">Xem thêm</div>
+                                            </div>
+                                        </div>
+                                        <div class="l-3-4 hidden-mobile container__content__box ">
+                                            <div class="container__content__box__img">
+                                                <div class="container__content__box--mobile--img"></div>
+                                            </div>
+                                            <div class="container__content__box__text">
+                                                <div class="container__content__box__text__title">Bạn Nguyễn Quang Hưng - Học DATA là 1 quá trình và mình đã vượt qua nó như nào</div>
+                                                <div class="container__content__box__text__content">Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...</div>
+                                                <div class="container__content__box__text__btn">Xem thêm</div>
+                                            </div>
+                                        </div>
+                                        <div class="l-3-4 hidden-mobile container__content__box">
+                                            <div class="container__content__box__img">
+                                                <div class="container__content__box--mobile--img"></div>
+                                            </div>
+                                            <div class="container__content__box__text">
+                                                <div class="container__content__box__text__title">Bạn Nguyễn Quang Hưng - Học DATA là 1 quá trình và mình đã vượt qua nó như nào</div>
+                                                <div class="container__content__box__text__content">Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về những logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các ngành công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được vào ngành công nghệ thông tin như mong muốn mà chỉ...</div>
+                                                <div class="container__content__box__text__btn">Xem thêm</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; justify-content: center;">
+                                        <div class="container__content__form-login-course">
+                                            <div class="container__content__form-login-course__box">
+                                                
+                                            <h2 class="container__content__form-login-course__title" >Đăng ký tư vấn khóa học</h2>
+                                            <form>
+                                            <label class="container__content__form-login-course__label" for="name">Họ và tên:</label>
+                                            <input class="container__content__form-login-course__input" type="text" id="name" name="name" required>
+    
+                                            <label class="container__content__form-login-course__label" for="email">Email:</label>
+                                            <input class="container__content__form-login-course__input" type="email" id="email" name="email" required>
+    
+                                            <label class="container__content__form-login-course__label" for="phone">Số điện thoại:</label>
+                                            <input class="container__content__form-login-course__input" type="tel" id="phone" name="phone" required>
+    
+                                            <label class="container__content__form-login-course__label" for="course">Khóa học mà bạn muốn tư vấn:</label>
+                                            <select class="container__content__form-login-course__select" id="course" name="course">
+                                                <option  class="container__content__form-login-course__option" value="course1">Khóa học 1</option>
+                                                <option class="container__content__form-login-course__option" value="course2">Khóa học 2</option>
+                                                <option class="container__content__form-login-course__option" value="course3">Khóa học 3</option>
+                                            </select>
+                                            <button class="container__content__form-login-course__button" type="submit">Đăng ký tư vấn</button>
+                                            </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="app__footer">
+            <div class="grid wide">
+                <div class="row app__footer-row">
+                    <a href="" class="hidden-mobile col l-6 app__footer__link--fb" >
+                        <img src="./assets/img/Facebook.png" alt="Facebook">
+                    </a>
+                    <div class="col l-2 c-5 app__footer__item app__footer__item--relative">
+                        <div class="app__footer__item__title">
+                            <p class="app__footer__item__title__text" >HÀ NỘI</p>
+                        </div>
+                        <p class="app__footer__item-text" >
+                        <b>165 Thái Hà</b><br>
+                        <b>Hotline</b>: 024 7106 8368<br>
+                        <b>Địa chỉ</b>: Tầng 6, Số 5, Ngách 23, Ngõ 165 Thái Hà, Phường Láng Hạ, Quận Đống Đa, Thành phố Hà Nội, Việt Nam
+                        </p>
+                        <p class="app__footer__item-text" >
+                        <b>30 Trung Liệt</b><br>
+                        <b>Hotline</b>: 024 7106 8368<br>
+                        <b>Địa chỉ</b>: Số 30, Trung Liệt, Phường Trung Liệt, Quận Đống Đa, Thành phố Hà Nội, Việt Nam
+                        </p>
+                    </div>
+                    <div class="col l-2 c-5 app__footer__item">
+                        <div class="app__footer__item__title">
+                            <p class="app__footer__item__title__text">HỒ CHÍ MINH</p>
+                        </div>
+                        <p class="app__footer__item-text">
+                            <b>HCM - 13 Cao Thắng</b><br>
+                            <b>Hotline</b>: 024 7106 8368<br>
+                            <b>Địa chỉ</b>: 13 Cao Thắng, Phường 2, Quận 3, Thành Phố Hồ Chí Minh
+                        </p>
+                        <p class="app__footer__item-text" >
+                            <b>HCM - 224 Điện Biên Phủ</b><br>
+                            <b>Hotline</b>: 024 7106 8368<br>
+                            <b>Địa chỉ</b>: Tầng 4 & Tầng 6, 224 Điện Biên Phủ, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, Việt Nam
+                        </p>
+                        <p class="app__footer__item-text" >
+                            <b>HCM - 677/6 Điện Biên Phủ</b><br>
+                            <b>Hotline</b>: 024 7106 8368<br>
+                            <b>Địa chỉ</b>: Tầng 4, Yoko Building 677/6, Điện Biên Phủ, Phường 25, Quận Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam
+                        </p>
+                    </div>
+                    <div class="col l-2 c-5 app__footer__item app__footer__item--absolute">
+                        <div class="app__footer__item__title">
+                            <p class="app__footer__item__title__text">HOTLINE</p>
+                        </div>
+                        <b class="app__footer__item-text" >
+                            Khiếu nại CEO: <br> 0982 521 378<br>
+                            Khiếu nại DCEO:<br> 0916 442 368<br>
+                            Hợp tác truyền thông:<br> 0934 146 016<br>
+                            Hợp tác kinh doanh:<br> 0961 123 988<br>
+                            Khiếu nại dịch vụ CSKH: <br>024 7106 8368<br>
+                            Tư vấn khóa học 1<br>
+                            Ms. Khánh Ly 0352 433 233<br>
+                            Tư vấn khóa học 2<br>
+                            Ms. Ngọc Linh 0344 463 698<br>
+                            CSKH: cskh@mcivietnam.com<br>
+                            Chính sách bảo mật<br>
+                        </b>
+                    </div>
+
+                    <a href="" class="col hidden-pc c-5 app__footer__link--fb app__footer__link--fb--mobile" >
+                        <div class="app__footer__item__title">
+                            <p class="app__footer__item__title__text">FANPAGE MCI</p>
+                        </div>
+                        <img src="./assets/img/Facebook.png" alt="Facebook">
+                    </a>
+                </div>
+            </div>
+        </footer>        
+    </div>
+</body>
+<script src="./assets/js/js.js" ></script>
+</html>
